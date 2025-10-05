@@ -1,0 +1,6 @@
+qiskit>=1.0.0
+qiskit-aer>=0.13.0
+streamlit>=1.28.0
+plotly>=5.17.0
+matplotlib>=3.7.0
+numpy>=1.24.0
