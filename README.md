@@ -8,6 +8,8 @@ An interactive web application for learning and visualizing quantum computing co
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+![Main web](assets/main-web.png)
+
 ---
 
 ## Overview
@@ -55,6 +57,7 @@ This probabilistic nature is fundamental to quantum mechanics and is not due to 
 ### What is a Bloch Sphere?
 
 The [Bloch Sphere](https://en.wikipedia.org/wiki/Bloch_sphere) is a geometric representation of a single qubits quantum state as a point on or inside a unit sphere in three dimensional space. It provides an intuitive way to visualize quantum states and understand how quantum gates transform them.
+![Bloch sphere](assets/bloch.png)
 
 ### Anatomy of the Bloch Sphere
 
@@ -200,6 +203,7 @@ Our application allows you to experiment with these combinations and observe the
 ## Features
 
 ### 1. Circuit Construction
+![Circuit](assets/circuit-2q.png)
 
 Build quantum circuits by selecting from a comprehensive library of quantum gates. The interface dynamically adapts to show only applicable gates for your chosen number of qubits, preventing invalid configurations. Add gates sequentially, visualize your circuit as you build, and modify or clear your circuit at any time.
 
@@ -211,6 +215,7 @@ Build quantum circuits by selecting from a comprehensive library of quantum gate
 Each gate can be applied to specific qubits, and the system maintains a clear, ordered list of all operations.
 
 ### 2. 3D Bloch Sphere Visualization
+![3D Bloch sphere](assets/bloch-2q.png)
 
 Experience quantum states like never before with fully interactive Plotly powered Bloch spheres. Click and drag to rotate the visualization from any angle, zoom in to examine details, and explore how quantum gates transform state vectors in real time.
 
@@ -229,6 +234,7 @@ Experience quantum states like never before with fully interactive Plotly powere
 - Clear labeling of which sphere corresponds to which qubit
 
 ### 3. State Analysis
+![State](assets/measurement.png)
 
 View your quantum state from multiple perspectives:
 
@@ -977,5 +983,6 @@ Happy quantum computing!
 ---
 
 **Powered by Qiskit | by Rexzea(Main Creator) & Univoid Members**
+
 
 *Making quantum computing visual, interactive, and accessible to everyone.*
