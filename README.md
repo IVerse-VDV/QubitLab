@@ -66,6 +66,7 @@ The [Bloch Sphere](https://en.wikipedia.org/wiki/Bloch_sphere) is a geometric re
                      ↑
                      |
                      |
+                     |
     |-⟩ ←------------●------------→ |+⟩
          (West)      |     (East)
                      |
@@ -234,7 +235,7 @@ Experience quantum states like never before with fully interactive Plotly powere
 - Clear labeling of which sphere corresponds to which qubit
 
 ### 3. State Analysis
-![State](assets/measurement.png)
+![State](assets/measurement-2q.png)
 
 View your quantum state from multiple perspectives:
 
@@ -262,6 +263,7 @@ View your quantum state from multiple perspectives:
 - Breakdown by gate type
 
 ### 4. Visualization for 3 Qubits
+![Visual](assets/measurement-3q.png)
 
 For three qubit systems, the application provides a custom 3D state city visualization that displays amplitude components as bars:
 
@@ -986,3 +988,4 @@ Happy quantum computing!
 
 
 *Making quantum computing visual, interactive, and accessible to everyone.*
+
