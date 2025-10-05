@@ -57,6 +57,7 @@ This probabilistic nature is fundamental to quantum mechanics and is not due to 
 ### What is a Bloch Sphere?
 
 The [Bloch Sphere](https://en.wikipedia.org/wiki/Bloch_sphere) is a geometric representation of a single qubits quantum state as a point on or inside a unit sphere in three dimensional space. It provides an intuitive way to visualize quantum states and understand how quantum gates transform them.
+
 ![Bloch sphere](assets/bloch.png)
 
 ### Anatomy of the Bloch Sphere
@@ -988,5 +989,6 @@ Happy quantum computing!
 
 
 *Making quantum computing visual, interactive, and accessible to everyone.*
+
 
 
