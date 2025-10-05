@@ -263,7 +263,7 @@ View your quantum state from multiple perspectives:
 - Breakdown by gate type
 
 ### 4. Visualization for 3 Qubits
-![Visual](assets/measurement-3q.png)
+![Visual](assets/bloch-3q.png)
 
 For three qubit systems, the application provides a custom 3D state city visualization that displays amplitude components as bars:
 
@@ -988,4 +988,5 @@ Happy quantum computing!
 
 
 *Making quantum computing visual, interactive, and accessible to everyone.*
+
 
