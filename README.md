@@ -390,6 +390,7 @@ This installs all required packages:
 - plotly (≥5.17.0)
 - matplotlib (≥3.7.0)
 - numpy (≥1.24.0)
+- pylatexenc
 
 4. **Verify installation:**
 
@@ -986,6 +987,7 @@ Happy quantum computing!
 
 
 *Making quantum computing visual, interactive, and accessible to everyone.*
+
 
 
 
