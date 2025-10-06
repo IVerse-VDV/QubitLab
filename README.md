@@ -362,9 +362,6 @@ Generates static visualizations including circuit diagrams and 3D state city plo
 git clone https://github.com/IVerse-VDV/quantum-computing-simulation.git
 ```
 ```bash
-cd computer-quantum-simulation
-```
-```bash
 cd quantum-visualizer
 ```
 
@@ -989,6 +986,7 @@ Happy quantum computing!
 
 
 *Making quantum computing visual, interactive, and accessible to everyone.*
+
 
 
 
