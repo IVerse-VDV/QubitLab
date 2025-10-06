@@ -639,7 +639,7 @@ The gate sequences students build in this application directly correspond to rea
 - [Bell state](https://en.wikipedia.org/wiki/Bell_state) preparation (foundational for quantum teleportation)
 - Quantum coin flip (introduction to quantum randomness)
 - Simple error detection codes (quantum error correction basics)
-- Building blocks of [Grover’s](https://arxiv.org/abs/quant-ph/9605043) and [Deutsch–Jozsa Algorithm](https://arxiv.org/abs/quant-ph/9208006)
+- Building blocks of [Grover’s](https://arxiv.org/abs/quant-ph/9605043) and [Deutsch–Jozsa Algorithm](https://www.cl.cam.ac.uk/teaching/1920/QuantComp/Quantum_Computing_Lecture_7.pdf)
 
 
 ---
@@ -694,7 +694,7 @@ Purity = Tr(ρ²) = |Bloch vector|²
 Pure states have purity = 1 (Bloch vector touches sphere surface).
 Mixed states have purity < 1 (vector inside sphere), indicating entanglement.
 
-### Modern Qiskit API
+### New Qiskit API
 
 The application uses Qiskit's current API:
 ```python
@@ -989,6 +989,7 @@ Happy quantum computing!
 
 
 *Making quantum computing visual, interactive, and accessible to everyone.*
+
 
 
 
