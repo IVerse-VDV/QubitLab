@@ -359,7 +359,7 @@ Generates static visualizations including circuit diagrams and 3D state city plo
 1. **Clone or download this repository:**
 
 ```bash
-git clone https://github.com/IVerse-VDV/quantum-computing-simulation.git
+https://github.com/IVerse-VDV/QubitLab.git
 ```
 ```bash
 cd quantum-visualizer
@@ -987,3 +987,4 @@ Happy quantum computing!
 
 
 *Making quantum computing visual, interactive, and accessible to everyone.*
+
