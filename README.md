@@ -1,6 +1,6 @@
 # Quantum Circuit Visualizer
 
-An interactive web application for learning and visualizing quantum computing concepts through hands on experimentation with quantum circuits. This project provides an intuitive interface for building quantum circuits, simulating their behavior, and exploring the fascinating properties of quantum states through rich visualizations.
+An interactive web application for learning and visualizing quantum computing concepts through hands on experimentation with [quantum circuits](https://www.cl.cam.ac.uk/teaching/1920/QuantComp/Quantum_Computing_Lecture_5.pdf). This project provides an intuitive interface for building quantum circuits, simulating their behavior, and exploring the fascinating properties of quantum states through rich visualizations.
 
 ![Quantum Computing](https://img.shields.io/badge/Quantum-Computing-blueviolet)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
@@ -28,11 +28,11 @@ Classical computers store information as bits that are either 0 or 1. Quantum co
 
 ### Key Quantum Concepts
 
-**Superposition** is the ability of a quantum system to exist in multiple states at once. When a qubit is in superposition, it has a probability of being measured as 0 and a probability of being measured as 1. The famous Hadamard gate creates an equal superposition, where the qubit has a 50% chance of being measured as either 0 or 1.
+**Superposition** is the ability of a quantum system to exist in multiple states at once. When a qubit is in superposition, it has a probability of being measured as 0 and a probability of being measured as 1. The famous [Hadamard gate](https://en.wikipedia.org/wiki/Quantum_logic_gate) creates an equal superposition, where the qubit has a 50% chance of being measured as either 0 or 1.
 
-**Entanglement** is a uniquely quantum phenomenon where two or more qubits become correlated in such a way that the state of one qubit cannot be described independently of the others. When qubits are entangled, measuring one qubit instantaneously affects the state of the other, regardless of the distance between them. This "spooky action at a distance," as Einstein called it, is a cornerstone of quantum computing and enables [Quantum Algorithms](https://en.wikipedia.org/wiki/Quantum_algorithm) to solve certain problems more efficiently than classical algorithms.
+**Entanglement** is a uniquely quantum phenomenon where two or more qubits become correlated in such a way that the state of one qubit cannot be described independently of the others. When qubits are entangled, measuring one qubit instantaneously affects the state of the other, regardless of the distance between them. This "[spooky action at a distance,](https://theconversation.com/spooky-action-at-a-distance-a-beginners-guide-to-quantum-entanglement-and-why-it-matters-in-the-real-world-266227)" as [Einstein](https://id.wikipedia.org/wiki/Albert_Einstein) called it, is a cornerstone of quantum computing and enables [Quantum Algorithms](https://en.wikipedia.org/wiki/Quantum_algorithm) to solve certain problems more efficiently than classical algorithms.
 
-**Quantum Interference** allows Quantum Algorithms to amplify correct answers and cancel out wrong answers. By carefully manipulating the phases of quantum states, we can increase the probability of measuring the desired outcome. This is the principle behind many Quantum Algorithms, including [Grover’s Search Algorithm](https://arxiv.org/abs/quant-ph/9605043) and [Shor’s Factoring Algorithm](https://arxiv.org/abs/quant-ph/9508027).
+**Quantum Interference** allows Quantum Algorithms to amplify correct answers and cancel out wrong answers. By carefully manipulating the [phases of quantum](https://arxiv.org/pdf/2209.14278) states, we can increase the probability of measuring the desired outcome. This is the principle behind many Quantum Algorithms, including [Grover’s Search Algorithm](https://arxiv.org/abs/quant-ph/9605043) and [Shor’s Factoring Algorithm](https://arxiv.org/abs/quant-ph/9508027).
 
 ### The Qubit State
 
@@ -42,13 +42,13 @@ Mathematically, a single qubit state can be written as:
 |ψ⟩ = α|0⟩ + β|1⟩
 ```
 
-where α and β are complex numbers called probability [amplitudes](https://en.wikipedia.org/wiki/Probability_amplitude), and |α|² + |β|² = 1. The quantities |α|² and |β|² represent the probabilities of measuring the qubit in state |0⟩ or |1⟩, respectively. The complex phases of α and β encode important information that affects how the qubit interacts with quantum gates.
+where [α](https://en.wikipedia.org/wiki/Alpha) and [β](https://en.wikipedia.org/wiki/Beta) are complex numbers called probability [amplitudes](https://en.wikipedia.org/wiki/Probability_amplitude), and |α|² + |β|² = 1. The quantities |α|² and |β|² represent the probabilities of measuring the qubit in state |0⟩ or |1⟩, respectively. The [complex phases](https://arxiv.org/pdf/2404.00743) of α and β encode important information that affects how the qubit interacts with quantum gates.
 
 ### Measurement and Probability
 
 Unlike classical bits, which can be read without changing their state, measuring a qubit collapses its superposition. Before measurement, a qubit exists in all possible states simultaneously. Upon measurement, the qubit "chooses" one of the basis states (|0⟩ or |1⟩) with probabilities determined by its amplitudes. After measurement, the qubit is no longer in superposition but exists definitively in the measured state.
 
-This probabilistic nature is fundamental to quantum mechanics and is not due to ignorance or hidden variables. It represents the true nature of quantum reality. Our application simulates this behavior by running multiple measurement "shots" and displaying the statistical distribution of outcomes.
+This probabilistic nature is fundamental to quantum mechanics and is not due to ignorance or [hidden variables](https://en.wikipedia.org/wiki/Hidden-variable_theory). It represents the true nature of quantum reality. Our application simulates this behavior by running multiple measurement "shots" and displaying the statistical distribution of outcomes.
 
 ---
 
@@ -162,15 +162,15 @@ The CNOT gate is therefore not only a workhorse of quantum logic but also a fund
 
 
 [**SWAP Gate:**](https://en.wikipedia.org/wiki/Quantum_logic_gate)  
-The SWAP gate is a two-qubit quantum gate that exchanges the quantum states of its two input qubits.  
-If the first qubit is in state |ψ⟩ and the second is in state |φ⟩, then after applying a [SWAP Gate](https://en.wikipedia.org/wiki/Quantum_logic_gate) their states are exchanged `|ψ⟩|φ⟩ → |φ⟩|ψ⟩`. This operation may sound conceptually simple, but it plays a critical role in practical quantum computing. In many quantum hardware architectures, qubits cannot all interact directly with each other due to ***limited connectivity***. The SWAP Gate provides a way to ***route information*** across the device by moving quantum states into positions where the required interactions or entanglements can be performed.  
+The SWAP gate is a two qubit quantum gate that exchanges the quantum states of its two input qubits.  
+If the first qubit is in state |[ψ](https://en.wikipedia.org/wiki/Psi_(Greek))⟩ and the second is in state |[φ](https://en.wikipedia.org/wiki/Phi)⟩, then after applying a [SWAP Gate](https://en.wikipedia.org/wiki/Quantum_logic_gate) their states are exchanged `|ψ⟩|φ⟩ → |φ⟩|ψ⟩`. This operation may sound conceptually simple, but it plays a critical role in practical quantum computing. In many quantum hardware architectures, qubits cannot all interact directly with each other due to ***limited connectivity***. The SWAP Gate provides a way to ***[route information](https://arxiv.org/pdf/2004.08133)*** across the device by moving quantum states into positions where the required interactions or entanglements can be performed.  
 For example, if qubit A needs to interact with qubit C but only has a direct connection to qubit B, a sequence of SWAP Gates can be used to move the state of A through B until it reaches C. In this way, SWAP acts as a "data mover" within a quantum processor.  
 Although the SWAP Gate itself does not create entanglement, it is still considered a ***universal building block*** in circuit design. It can also be decomposed into a sequence of three CNOT gates, which makes it possible to implement on any architecture that supports [CNOT](https://en.wikipedia.org/wiki/Quantum_logic_gate) as a native two qubit gate.  
 Thus, the SWAP gate is essential for ***circuit optimization, qubit routing, and hardware aware quantum algorithm design***, ensuring that logical qubits can be efficiently mapped to the physical qubits available on real quantum hardware.
 
 
 [**Toffoli Gate (CCNOT):**](https://en.wikipedia.org/wiki/Quantum_logic_gate)  
-The Toffoli gate, also known as the ***Controlled-Controlled-NOT (CCNOT)*** gate, is a three-qubit gate that extends the idea of the [CNOT Gate](https://en.wikipedia.org/wiki/Quantum_logic_gate).  
+The Toffoli gate, also known as the ***Controlled-Controlled-NOT (CCNOT)*** gate, is a three qubit gate that extends the idea of the [CNOT Gate](https://en.wikipedia.org/wiki/Quantum_logic_gate).  
 It has ***two control qubits*** and ***one target qubit***. The target qubit is flipped (|0⟩ → |1⟩ or |1⟩ → |0⟩) ***only when both control qubits are in the state |1⟩***. In all other cases, the target qubit remains unchanged.  
 This behavior can be summarized as:  
 - |000⟩ → |000⟩  
@@ -187,7 +187,7 @@ The Toffoli gate is especially important because:
 3. ***Bridge between classical and quantum logic***  
    The Toffoli gate allows embedding of classical logic within quantum circuits, making it useful for algorithms that combine classical control structures with quantum operations.  
 Although powerful, the Toffoli Gate. On real hardware, it is typically decomposed into a sequence of single qubit and two qubit gates, since most quantum processors do not support Toffoli as a native operation.  
-Overall, the Toffoli gate is a cornerstone in the design of [Quantum Algorithms](https://en.wikipedia.org/wiki/Quantum_algorithm), especially in tasks that require ***error correction, reversible logic, or controlled multi-qubit interactions***.
+Overall, the Toffoli gate is a cornerstone in the design of [Quantum Algorithms](https://en.wikipedia.org/wiki/Quantum_algorithm), especially in tasks that require ***error correction, reversible logic, or controlled multi qubit interactions***.
 
 
 ### Gate Combinations and Quantum Algorithms
@@ -198,7 +198,7 @@ Individual gates are powerful, but Quantum Algorithms arise from carefully orche
 - [**Quantum Teleportation:**](https://en.wikipedia.org/wiki/Quantum_teleportation) Uses entanglement and specific gate sequences to transfer quantum information
 - [**Grovers Algorithm**](https://arxiv.org/abs/quant-ph/9605043) Combines Hadamard gates, phase flips, and diffusion operators to search unsorted databases
 
-Our application allows you to experiment with these combinations and observe their effects in real-time.
+Our application allows you to experiment with these combinations and observe their effects in real time.
 
 ---
 
@@ -242,7 +242,7 @@ View your quantum state from multiple perspectives:
 
 **Statevector Display:**
 - Complete list of complex [amplitudes](https://en.wikipedia.org/wiki/Probability_amplitude) for each basis state
-- Formatted complex numbers (real + imaginary components)
+- Formatted [complex](https://en.wikipedia.org/wiki/Complex_number) numbers ([real](https://en.wikipedia.org/wiki/Real_number) + [imaginary ](https://en.wikipedia.org/wiki/Imaginary_number)components)
 - Probability values |amplitude|² for each state
 - [Big-endian](https://en.wikipedia.org/wiki/Endianness) notation (q0 is leftmost bit)
 
@@ -271,7 +271,7 @@ For three qubit systems, the application provides a custom 3D state city visuali
 - **Red bars:** Real[amplitude](https://en.wikipedia.org/wiki/Probability_amplitude) components (positive and negative)
 - **Blue bars:** Imaginary amplitude components (positive and negative)
 - **X-axis:** All 8 basis states in [Big-endian](https://en.wikipedia.org/wiki/Endianness) order (000, 001, 010, ..., 111)
-- **Bar height:** Magnitude of each component
+- **Bar height:** [Magnitude](https://en.wikipedia.org/wiki/Magnitude_(mathematics)) of each component
 - **Proper ordering:** Always uses big endian convention for consistency
 
 This visualization reveals the complete quantum state structure, showing which basis states contribute to the superposition and the phase relationships between them.
@@ -297,19 +297,19 @@ This project leverages cutting edge python libraries to deliver a seamless quant
 ### Core Technologies
 
 **Qiskit (≥1.0.0)**
-The heart of our quantum engine. Qiskit, developed by IBM Research, provides industrial-strength quantum computing capabilities including circuit construction, gate operations, and state simulation. We use the modern Qiskit API with `backend.run()` (not the deprecated `execute()`) to ensure future compatibility. The Aer simulator backend enables accurate quantum state evolution on classical hardware. [See Qiskit documentation](https://qiskit.org/documentation/) or [Qiskit API Reference](https://docs.quantum.ibm.com/api/qiskit)
+The heart of our quantum engine. Qiskit, developed by [IBM Research](https://research.ibm.com/), provides industrial strength quantum computing capabilities including circuit construction, gate operations, and state simulation. We use the modern Qiskit API with `backend.run()` (not the deprecated `execute()`) to ensure future compatibility. The Aer simulator backend enables accurate quantum state evolution on classical hardware. [See Qiskit documentation](https://qiskit.org/documentation/) or [Qiskit API Reference](https://docs.quantum.ibm.com/api/qiskit)
 
 **Streamlit (≥1.28.0)**
 Powers the entire web interface with its reactive programming model. Streamlit declarative approach makes building interactive applications intuitive while maintaining professional aesthetics. Its session state management handles the dynamic circuit building process, and automatic rerun capabilities ensure the UI always reflects the current quantum state. [See Streamlit documentation](https://docs.streamlit.io/)
 
 **Plotly (≥5.17.0)**
-Delivers stunning interactive 3D visualizations. Plotly's WebGL-based rendering provides hardware-accelerated graphics that remain smooth even with complex scenes. The library's declarative API makes creating sophisticated visualizations straightforward, and its built-in interactivity (zoom, rotate, pan) requires no additional code. [See Plotly Python documentation](https://plotly.com/python/) or [Plotly Python API Reference](https://plotly.com/python-api-reference/)
+Delivers stunning interactive 3D visualizations. Plotly's WebGL-based rendering provides hardware accelerated graphics that remain smooth even with complex scenes. The library declarative API makes creating sophisticated visualizations straightforward, and its built-in interactivity (zoom, rotate, pan) requires no additional code. [See Plotly Python documentation](https://plotly.com/python/) or [Plotly Python API Reference](https://plotly.com/python-api-reference/)
 
 **NumPy (≥1.24.0)**
-Handles all mathematical heavy lifting. NumPy's optimized array operations enable efficient complex number arithmetic, matrix multiplications for density matrices, and partial trace computations for reduced states. Its integration with Qiskit ensures seamless data flow between quantum circuits and numerical analysis. [See NumPy documentation](https://numpy.org/doc/) or [NumPy API Reference](https://numpy.org/doc/stable/reference/)
+Handles all mathematical heavy lifting. NumPy optimized array operations enable efficient complex number arithmetic, matrix multiplications for density matrices, and partial trace computations for reduced states. Its integration with Qiskit ensures seamless data flow between quantum circuits and numerical analysis. [See NumPy documentation](https://numpy.org/doc/) or [NumPy API Reference](https://numpy.org/doc/stable/reference/)
 
 **Matplotlib (≥3.7.0)**
-Generates static visualizations including circuit diagrams and 3D state city plots. While Plotly handles interactive graphics, Matplotlib excels at publication-quality static figures and integrates seamlessly with Streamlit's rendering pipeline. [See Matplotlib documentation](https://matplotlib.org/stable/contents.html)
+Generates static visualizations including circuit diagrams and 3D state city plots. While Plotly handles interactive graphics, Matplotlib excels at publication-quality static figures and integrates seamlessly with Streamlit rendering pipeline. [See Matplotlib documentation](https://matplotlib.org/stable/contents.html)
 
 ### Architecture Diagram
 
@@ -317,30 +317,30 @@ Generates static visualizations including circuit diagrams and 3D state city plo
 ┌─────────────────────────────────────────────────────────────┐
 │                    Streamlit Web Interface                  │
 │  (User Input, Circuit Builder, Visualization Display)       │
-└────────────────────┬────────────────────────────────────────┘
-                     │
-        ┌────────────┴───────────────┐
-        │                            │
-┌───────▼────────┐          ┌────────▼────────┐
-│   gates.py     │          │    utils.py     │
-│                │          │                 │
-│ • Gate funcs   │          │ • Simulation    │
-│ • Circuit      │          │ • Bloch vector  │
-│   builder      │          │ • Density matrix│
-│ • Gate catalog │          │ • Visualization │
-└───────┬────────┘          └────────┬────────┘
-        │                            │
-        └────────────┬───────────────┘
-                     │
-        ┌────────────▼───────────────┐
-        │      Qiskit + Aer          │
-        │  (Quantum Simulation)      │
-        └────────────┬───────────────┘
-                     │
-        ┌────────────▼───────────────┐
-        │   NumPy / Plotly / MPL     │
-        │  (Math & Visualization)    │
-        └────────────────────────────┘
+└────────────────────────────────┬────────────────────────────┘
+                                 │
+                  ┌──────────────┴─────────────┐
+                  │                            │
+          ┌───────▼────────┐          ┌────────▼────────┐
+          │   gates.py     │          │    utils.py     │
+          │                │          │                 │
+          │ • Gate funcs   │          │ • Simulation    │
+          │ • Circuit      │          │ • Bloch vector  │
+          │   builder      │          │ • Density matrix│
+          │ • Gate catalog │          │ • Visualization │
+          └───────┬────────┘          └────────┬────────┘
+                  │                            │
+                  └──────────────┬─────────────┘
+                                 │
+                    ┌────────────▼───────────────┐
+                    │      Qiskit + Aer          │
+                    │  (Quantum Simulation)      │
+                    └────────────┬───────────────┘
+                                 │
+                    ┌────────────▼───────────────┐
+                    │   NumPy / Plotly / MPL     │
+                    │  (Math & Visualization)    │
+                    └────────────────────────────┘
 ```
 
 ---
@@ -352,7 +352,7 @@ Generates static visualizations including circuit diagrams and 3D state city plo
 - Python 3.8 or higher
 - pip (Python package manager)
 - 4GB RAM minimum (8GB recommended for 3-qubit circuits)
-- Modern web browser (Chrome, Firefox, Safari, or Edge)
+- Web browser (Chrome, Firefox, Safari, or Edge)
 
 ### Step-by-Step Installation
 
@@ -427,7 +427,7 @@ or
 python -m streamlit run app.py
 ```
 
-Streamlit will launch a local web server and open your default browser to the application. If the browser doesn't open automatically, copy the URL from your terminal (typically `http://localhost:8501`).
+Streamlit will launch a local web server and open your default browser to the application. If the browser doesnt open automatically, copy the URL from your terminal (typically `http://localhost:8501`).
 
 ### Building Your First Quantum Circuit
 
@@ -435,7 +435,7 @@ Streamlit will launch a local web server and open your default browser to the ap
 
 In the sidebar, select how many qubits you want to work with:
 - **1 qubit:** Best for learning individual gate effects
-- **2 qubits:** Explore entanglement and multi-qubit gates
+- **2 qubits:** Explore entanglement and multi qubit gates
 - **3 qubits:** Experiment with complex quantum states
 
 #### Step 2: Add Quantum Gates
@@ -470,7 +470,7 @@ The main panel displays multiple visualizations:
 An interactive Bloch sphere allows you to click and drag to rotate the view, and scroll to zoom in or out. This helps in understanding how quantum gates transform qubits — for example, a Hadamard gate rotates the qubit from the north pole into a balanced superposition along the equator, while a Pauli-X gate flips the state from |0⟩ to |1⟩. For two-qubit systems, Bloch spheres can be used individually to represent each qubit’s reduced state, giving insight into entanglement and correlations.
 This visualization is not just aesthetic, but also educational: by watching how quantum operations map onto rotations on the sphere, you can build an intuitive grasp of otherwise abstract quantum mechanics concepts.
 
-**State City (3 qubits):** For systems larger than two qubits, the Bloch sphere can no longer fully capture the quantum state, since the state space grows exponentially. Instead, a State City plot is used. This is a 3D bar chart where each bar corresponds to one of the computational basis states (e.g., |000⟩, |001⟩, ..., |111⟩). The height of each bar represents the magnitude of the complex amplitude associated with that basis state, while the color or orientation of the bar indicates the phase of the amplitude.
+**State City (3 qubits):** For systems larger than two qubits, the Bloch sphere can no longer fully capture the quantum state, since the state space grows exponentially. Instead, a State City plot is used. This is a 3D bar chart where each bar corresponds to one of the computational basis states (e.g., |000⟩, |001⟩, ..., |111⟩). The height of each bar represents the [magnitude](https://en.wikipedia.org/wiki/Magnitude_(mathematics)) of the complex amplitude associated with that basis state, while the color or orientation of the bar indicates the phase of the amplitude.
 This visualization provides a clear picture of how probability [amplitudes](https://en.wikipedia.org/wiki/Probability_amplitude) are distributed across all possible states of the qubits. For example, a uniform superposition of three qubits would show eight bars of equal height, while entangled or algorithm-specific states may show only a few dominant bars with specific phase relationships.
 By examining the State City plot, you can gain intuition about the structure of multi-qubit states, see the effects of quantum gates on higher-dimensional systems, and better understand how amplitudes interfere to produce measurement outcomes.
 
@@ -478,8 +478,8 @@ By examining the State City plot, you can gain intuition about the structure of 
 For an *n*-qubit system, the statevector has `2^n` complex numbers, each corresponding to one of the computational basis states.  
 In general, the statevector can be written as:
 |ψ⟩ = α₀|00...0⟩ + α₁|00...1⟩ + ... + α₂ⁿ⁻¹|11...1⟩  
-Each coefficient αᵢ is a complex number, and the squared magnitude |αᵢ|² gives the probability of measuring the system in that basis state. The statevector must always be normalized, meaning:  
-Σ |αᵢ|² = 1  
+Each coefficient αᵢ is a complex number, and the squared [magnitude](https://en.wikipedia.org/wiki/Magnitude_(mathematics)) |αᵢ|² gives the probability of measuring the system in that basis state. The statevector must always be normalized, meaning:  
+[Σ](https://en.wikipedia.org/wiki/Sigma) |αᵢ|² = 1  
 ***Examples:***  
 - Single qubit in superposition:  
   |ψ⟩ = (1/√2)|0⟩ + (1/√2)|1⟩  
@@ -489,7 +489,7 @@ The statevector is essential in quantum simulations because it fully captures th
 
 **Probability Distribution:** In quantum computing, the probability distribution describes the likelihood of each possible measurement outcome for a quantum state.  
 When a quantum circuit is executed and measured, the statevector of the qubits collapses into one of the computational basis states (e.g., `|00⟩`, `|01⟩`, etc.).  
-The probability of obtaining a specific outcome is determined by the squared magnitude of its [amplitude](https://en.wikipedia.org/wiki/Probability_amplitude) in the statevector.  
+The probability of obtaining a specific outcome is determined by the squared [magnitude](https://en.wikipedia.org/wiki/Magnitude_(mathematics)) of its [amplitude](https://en.wikipedia.org/wiki/Probability_amplitude) in the statevector.  
 For an *n*-qubit system, there are `2^n` possible outcomes. The probabilities of these outcomes form a distribution that always sums to 1:  
 Σ P(outcomeᵢ) = 1  
 ***Example:***  
@@ -508,7 +508,7 @@ For an *n*-qubit system, there are `2^n` possible outcomes. The probabilities of
 Probability distributions are often displayed as **tables** or **histograms**, making it easier to see which measurement results are most likely after running a quantum algorithm.
 
 **Measurement Histogram:** A measurement histogram is a bar chart that shows the frequency of each outcome obtained when running a quantum circuit multiple times (also called "shots").  
-Unlike the probability distribution, which represents the *theoretical* likelihood of each state, the measurement histogram displays the *experimental results* collected from actual runs or simulations.  
+Unlike the probability distribution, which represents the *[theoretical](https://en.wikipedia.org/wiki/Theoretical_definition)* likelihood of each state, the measurement histogram displays the *experimental results* collected from actual runs or simulations.  
 Each bar corresponds to one of the possible basis states (e.g., `|00⟩`, `|01⟩`, `|10⟩`, `|11⟩` for 2 qubits), and the height of the bar reflects how many times that state appeared during the measurements.  
 The more shots you run, the closer the histogram typically gets to the theoretical probability distribution, although randomness and noise can still cause variations.  
 This visualization is essential for analyzing the performance of quantum circuits and algorithms. It helps confirm whether the observed results match the expected theoretical predictions and also highlights the effects of noise, hardware imperfections, or statistical fluctuations in real quantum devices.
@@ -585,7 +585,7 @@ quantum-circuit-visualizer/
 - `calculate_probabilities()`: Computes measurement probabilities from statevectors
 - `format_statevector()`: Formats complex [amplitudes](https://en.wikipedia.org/wiki/Probability_amplitude) for display
 - `get_measurement_counts()`: Simulates measurements and returns counts
-- `statevector_to_bloch_vector()`: Converts single-qubit states to Bloch coordinates
+- `statevector_to_bloch_vector()`: Converts single qubit states to Bloch coordinates
 - `density_matrix_to_bloch_vector()`: Converts density matrices to Bloch vectors
 - `partial_trace()`: Computes reduced density matrices for individual qubits
 - `plot_bloch_sphere_plotly()`: Creates interactive 3D Bloch sphere visualizations
@@ -608,7 +608,7 @@ Traditional quantum computing education often requires students to perform compl
 
 ### Hands-On Experimentation
 
-Learning by doing is far more effective than passive reading. Students can freely experiment with gate combinations, make mistakes, learn from unexpected results, and develop intuition about quantum behavior. The low-friction environment encourages exploration without fear of "breaking" anything or wasting expensive quantum computing resources.
+Learning by doing is far more effective than passive reading. Students can freely experiment with gate combinations, make mistakes, learn from unexpected results, and develop intuition about quantum behavior. The low friction environment encourages exploration without fear of "breaking" anything or wasting expensive quantum computing resources.
 
 ### Multiple Representations
 
@@ -792,7 +792,7 @@ This is the famous [Bell state](https://en.wikipedia.org/wiki/Bell_state) (|Φ+�
 - Z component: -1.0
 
 **What This Demonstrates:**
-Pauli-X is the quantum NOT gate. It deterministically flips |0⟩ to |1⟩. On the Bloch sphere, this is a 180° rotation around the X-axis. Unlike superposition, this produces a definite outcome.
+Pauli-X is the quantum NOT gate. It [deterministically](https://arxiv.org/pdf/2506.21553) flips |0⟩ to |1⟩. On the Bloch sphere, this is a 180° rotation around the X-axis. Unlike superposition, this produces a definite outcome.
 
 ### Example 5: Three-Qubit GHZ State
 
@@ -812,7 +812,7 @@ Pauli-X is the quantum NOT gate. It deterministically flips |0⟩ to |1⟩. On t
 - Histogram: Only bars for 000 and 111
 
 **What This Demonstrates:**
-This is the GHZ (Greenberger-Horne-Zeilinger) state, a three-qubit entangled state. All three qubits are perfectly correlated: measuring any one immediately determines all others. This state is used in quantum error correction and fundamental tests of quantum mechanics.
+This is the [GHZ (Greenberger-Horne-Zeilinger)](https://arxiv.org/pdf/2106.01550) state, a three qubit entangled state. All three qubits are perfectly correlated: measuring any one immediately determines all others. This state is used in quantum error correction and fundamental tests of quantum mechanics.
 
 ### Example 6: Interference Pattern
 
@@ -828,7 +828,7 @@ This is the GHZ (Greenberger-Horne-Zeilinger) state, a three-qubit entangled sta
 - Bloch vector ends at -Z (south pole)
 - Statevector: |1⟩: 1.0
 - Probability: 100% for |1⟩
-- This is deterministic, not probabilistic!
+- This is [deterministic](https://arxiv.org/pdf/2506.21553), not probabilistic!
 
 **What This Demonstrates:**
 The sequence H-Z-H deterministically produces |1⟩. The first H creates superposition, Z adds a phase that makes the two paths interfere destructively for |0⟩ and constructively for |1⟩, and the final H completes the interference. This principle underlies many [Quantum Algorithms](https://en.wikipedia.org/wiki/Quantum_algorithm) .
@@ -910,7 +910,7 @@ Under the condition that you include the original copyright and license notice i
 
 ## Acknowledgments
 
-This project stands on the shoulders of giants and would not be possible without the contributions of the broader quantum computing and open-source communities.
+This project stands on the shoulders of giants and would not be possible without the contributions of the broader quantum computing and open source communities.
 
 ### Special Thanks To
 
@@ -918,13 +918,13 @@ This project stands on the shoulders of giants and would not be possible without
 For developing and maintaining Qiskit, the comprehensive quantum computing framework that powers this application. Their commitment to open-source quantum computing has democratized access to quantum technology and made projects like this possible. The extensive documentation, active community, and regular updates make Qiskit the gold standard for quantum computing education and research.
 
 **The Streamlit Team**
-For creating a framework that makes building interactive Python applications remarkably straightforward. Streamlit's intuitive API and reactive programming model allowed us to focus on quantum computing concepts rather than web development complexity.
+For creating a framework that makes building interactive Python applications remarkably straightforward. Streamlit intuitive API and reactive programming model allowed us to focus on quantum computing concepts rather than web development complexity.
 
 **Plotly Developers**
 For providing powerful, GPU accelerated visualization tools that bring quantum states to life. The interactive 3D graphics capabilities of Plotly transform abstract quantum mechanics into tangible, explorable objects.
 
 **The Quantum Computing Community**
-To educators, researchers, and enthusiasts worldwide who freely share knowledge, tutorials, and insights. The collaborative spirit of the quantum computing community accelerates learning and innovation for everyone.
+To educators, researchers, and enthusiasts worldwide who freely share knowledge, tutorials, and insights. The collaborative spirit of the quantum computing cmmunity accelerates learning and innovation for everyone.
 
 **Open Source Contributors**
 To all developers who contribute to NumPy, Matplotlib, and the broader Python scientific computing ecosystem. These foundational tools enable countless projects across science, engineering, and education.
@@ -953,7 +953,7 @@ Star the repository on GitHub to receive notifications about updates and new rel
 
 ### About the Developer
 
-**Rexzea** is passionate about making quantum computing accessible through visualization and interactive tools. This project combines interests in quantum mechanics, software development, and education to create a resource that helps others explore the fascinating world of quantum computing.
+**[Rexzea](https://github.com/rexzea)**(Main Author) is passionate about making quantum computing accessible through visualization and interactive tools. This project combines interests in quantum mechanics, software development, and education to create a resource that helps others explore the fascinating world of quantum computing.
 
 ---
 
@@ -987,10 +987,3 @@ Happy quantum computing!
 
 
 *Making quantum computing visual, interactive, and accessible to everyone.*
-
-
-
-
-
-
-
