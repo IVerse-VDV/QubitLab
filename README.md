@@ -967,7 +967,7 @@ Main Author: [Rexzea](https://github.com/rexzea)
 
 Year: 2025
 
-URL: https://github.com/IVerse-VDV/quantum-computing-simulation.git
+URL: https://github.com/IVerse-VDV/QubitLab
 
 ---
 
@@ -987,4 +987,5 @@ Happy quantum computing!
 
 
 *Making quantum computing visual, interactive, and accessible to everyone.*
+
 
