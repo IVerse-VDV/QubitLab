@@ -1,29 +1,31 @@
-# 01_Foundations
+# 01 Foundations
 
-This folder gathers key resources on the **foundations of Quantum Mechanics**.  
-It introduces the mathematical framework, core postulates, and conceptual issues such as measurement, uncertainty, and interpretation.  
-The papers and lecture notes below are arranged to help both beginners and advanced learners build a solid understanding.
-
----
+This folder is dedicated to fundamental works on the foundations of quantum mechanics: the conceptual structure, mathematical underpinnings, and classic debates.
 
 ## Papers & Lecture Notes
 
 1. [Foundations of Quantum Mechanics – Travis Norsen (2017)](https://pages.jh.edu/rrynasi1/HealeySeminar/literature/Norsen2017FoundationsOfQuantumMechanics.pdf)  
-   *A modern overview of the conceptual and philosophical issues at the foundation of quantum theory, including realism, locality, and measurement.*
+   A modern discussion of conceptual issues in quantum theory: realism, locality, measurement, and various interpretational approaches.  
 
-2. [Quantum Mechanics Made Simple – W.C. Chew (2016, Lecture Notes)](https://engineering.purdue.edu/wcchew/course/QMAll20161206.pdf)  
-   *Introductory lecture notes that explain the Schrödinger equation, operators, eigenvalue problems, and basic quantum principles in a concise way.*
+2. [The Nature of Schrödinger Equation – Zhao et al. (2021)](https://arxiv.org/pdf/2108.06198)  
+   Investigates derivations and interpretations of the Schrödinger equation, and its relation to stochastic or classical wave pictures.  
 
-3. [Evolution of Schrödinger Uncertainty Relation – A. Angelow (2007, arXiv)](https://arxiv.org/pdf/0710.0670)  
-   *Discusses the development of the uncertainty principle, its generalizations, and its importance in the mathematical structure of quantum mechanics.*
+3. [The Schrödinger–Newton Equation and Its Foundations – Bahrami et al. (2014)](https://arxiv.org/abs/1407.4370)  
+   Explores a semi-classical gravitational modification of quantum mechanics (nonlinear coupling of wavefunction to gravity) and foundational implications.  
 
-4. [Spin and Uncertainty in the Interpretation of Quantum Mechanics – D. Hestenes (1979)](https://davidhestenes.net/geocalc/pdf/Spin%26uncert.pdf)  
-   *Explores the role of spin and uncertainty in interpreting quantum mechanics, with a geometric algebra perspective.*
+4. [Schrödinger’s original quantum-mechanical solution for hydrogen – Galler et al. (2021)](https://site.physics.georgetown.edu/~jkf/publications/schrodinger_ejp_2021.pdf)  
+   Revisits Schrödinger’s original method of solving the hydrogen atom via the Laplace method, giving insight into historical derivations.
 
-5. [A Direct Interpretation of Quantum Mechanics – O.C. Stoica (2008)](https://philsci-archive.pitt.edu/4200/1/direct_qm-v2.pdf)  
-   *Proposes an interpretation of quantum mechanics that avoids the measurement problem and collapse postulate, aiming for a more direct ontological model.*
+5. [The Schrödinger Equation (Lecture Notes, Stanford)](https://web.stanford.edu/~oas/SI/QM/notes/QMLect5.pdf)  
+   Lecture notes explaining the Schrödinger equation, its origin, and basic solutions (time-dependent and time-independent forms).
 
-6. [Entropic Uncertainty Relations and Applications – Coles, Berta, Tomamichel, Wehner (2015, arXiv)](https://arxiv.org/abs/1511.04857)  
-   *Reviews entropic formulations of the uncertainty principle, their mathematical foundations, and practical applications in quantum information theory.*
+6. [Wave mechanics and the Schrödinger equation (Lecture Handout, Cambridge)](https://www.tcm.phy.cam.ac.uk/~bds10/aqp/handout_foundations.pdf)  
+   A handout that introduces wave mechanics and the formal development of the Schrödinger equation.
+
+7. [“1926 – Schrödinger’s original paper (quantization as eigenvalue problem)”](https://ee.sharif.edu/~sarvari/25290/1926-Schrodinger.pdf)  
+   The historic original publication by Schrödinger introducing wave mechanics.  
+
+8. [Foundations of Quantum Mechanics (article) – Salim Yasmineh, 2022](https://philsci-archive.pitt.edu/22081/1/encyclopedia-02-00071%20%284%29.pdf)  
+   A review / encyclopedia entry giving an accessible overview of the conceptual foundations and interpretations.
 
 ---
