@@ -1,4 +1,4 @@
-# 01_Foundations
+# 01 Foundations
 
 This folder gathers key resources on the **foundations of Quantum Mechanics**.  
 It introduces the mathematical framework, core postulates, and conceptual issues such as measurement, uncertainty, and interpretation.  
@@ -27,3 +27,4 @@ The papers and lecture notes below are arranged to help both beginners and advan
    *Reviews entropic formulations of the uncertainty principle, their mathematical foundations, and practical applications in quantum information theory.*
 
 ---
+
