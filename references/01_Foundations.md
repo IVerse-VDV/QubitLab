@@ -1,4 +1,4 @@
-# 01 Foundations
+# 01. Foundations
 
 This folder is dedicated to fundamental works on the foundations of quantum mechanics: the conceptual structure, mathematical underpinnings, and classic debates.
 
@@ -29,3 +29,4 @@ This folder is dedicated to fundamental works on the foundations of quantum mech
    A review / encyclopedia entry giving an accessible overview of the conceptual foundations and interpretations.
 
 ---
+
