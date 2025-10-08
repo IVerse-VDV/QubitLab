@@ -860,11 +860,11 @@ If you're new to open source, to quantum computing, or to Python development, do
 
 If you have questions about contributing that arent answered in this comprehensive guide, several resources are available to help you:
 
-**GitHub Discussions:** Post questions in our [Discussions forum](https://github.com/IVerse-VDV/QubitLab/discussions). Community members and maintainers monitor discussions and provide assistance.
+**GitHub Discussions:** Post questions in our [Discussions forum](https://github.com/IVerse-VDV/QubitLab/issues). Community members and maintainers monitor discussions and provide assistance.
 
-**Issue Comments:** If you're working on a specific issue, ask questions in that issue's comment thread. Maintainers and other contributors can provide context and guidance.
+**Issue Comments:** If you're working on a specific issue, ask questions in that issue comment thread. Maintainers and other contributors can provide context and guidance.
 
-**Documentation:** Review our [README.md](README.md) for usage instructions and project overview, check Qiskit's [official documentation](https://qiskit.org/documentation/) for quantum computing questions, consult Streamlit's [documentation](https://docs.streamlit.io/) for UI-related questions, and reference Plotly [graphing library docs](https://plotly.com/python/) for visualization questions.
+**Documentation:** Review our [README.md](https://github.com/IVerse-VDV/QubitLab/blob/main/README.md) for usage instructions and project overview, check Qiskit's [official documentation](https://qiskit.org/documentation/) for quantum computing questions, consult Streamlit's [documentation](https://docs.streamlit.io/) for UI-related questions, and reference Plotly [graphing library docs](https://plotly.com/python/) for visualization questions.
 
 We're committed to making contributing to QubitLab as smooth and welcoming as possible. Your questions help us improve this guide and our onboarding process, so dont hesitate to ask.
 
