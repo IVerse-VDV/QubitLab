@@ -1,4 +1,4 @@
-# 02_Quantum_Theory_Formalisms
+# 02. Quantum Theory Formalisms
 
 This folder contains materials and papers on different mathematical formalisms of quantum mechanics: Hilbert spaces, operators, path integrals, density matrices, etc. These resources help understand how quantum mechanics is formulated from different viewpoints.
 
