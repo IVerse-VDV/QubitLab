@@ -803,11 +803,11 @@ Good documentation is as important as good code. QubitLab documentation helps us
 
 ### README.md Updates
 
-The [README.md](README.md) file is the primary documentation for QubitLab. When adding features, update the README to include usage instructions, examples demonstrating the new feature, and explanations of any new concepts. When changing behavior, update relevant sections to reflect the changes. Keep the README well-organized with clear headings, and use examples to illustrate complex concepts.
+The [README.md]([README.md](https://github.com/IVerse-VDV/QubitLab/edit/main/README.md) file is the primary documentation for QubitLab. When adding features, update the README to include usage instructions, examples demonstrating the new feature, and explanations of any new concepts. When changing behavior, update relevant sections to reflect the changes. Keep the README well-organized with clear headings, and use examples to illustrate complex concepts.
 
 ### Code Documentation
 
-As discussed in [Coding Guidelines](#coding-guidelines-and-standards), all functions, classes, and modules must have comprehensive docstrings. Beyond docstrings, add inline comments for complex logic, non-obvious optimizations, mathematical formulas, or subtle quantum mechanics considerations. Comments should explain *why*, not *what*. For example:
+As discussed in Coding Guidelines, all functions, classes, and modules must have comprehensive docstrings. Beyond docstrings, add inline comments for complex logic, non-obvious optimizations, mathematical formulas, or subtle quantum mechanics considerations. Comments should explain *why*, not *what*. For example:
 
 ```python
 # Apply partial trace to compute reduced density matrix for individual
@@ -827,10 +827,6 @@ The QubitLab community uses several channels for different types of communicatio
 ### GitHub Issues
 
 Use [GitHub Issues](https://github.com/IVerse-VDV/QubitLab/issues) for bug reports, feature requests, tracking specific tasks or enhancements, and discussing implementation details of proposed changes. Issues are best for concrete, actionable items that need to be tracked and resolved.
-
-### GitHub Discussions
-
-Use [GitHub Discussions](https://github.com/IVerse-VDV/QubitLab/discussions) for general questions about quantum computing or Qiskit, ideas and brainstorming that aren't yet concrete proposals, showing off projects built with QubitLab, and community conversations that dont fit as issues. Discussions are more informal and conversational than issues.
 
 ### Pull Request Comments
 
@@ -864,7 +860,7 @@ If you have questions about contributing that arent answered in this comprehensi
 
 **Issue Comments:** If you're working on a specific issue, ask questions in that issue comment thread. Maintainers and other contributors can provide context and guidance.
 
-**Documentation:** Review our [README.md](https://github.com/IVerse-VDV/QubitLab/blob/main/README.md) for usage instructions and project overview, check Qiskit's [official documentation](https://qiskit.org/documentation/) for quantum computing questions, consult Streamlit's [documentation](https://docs.streamlit.io/) for UI-related questions, and reference Plotly [graphing library docs](https://plotly.com/python/) for visualization questions.
+**Documentation:** Review our [README.md](https://github.com/IVerse-VDV/QubitLab/blob/main/README.md) for usage instructions and project overview, check Qiskit's [official documentation](https://qiskit.org/documentation/) for quantum computing questions, consult Streamlit [documentation](https://docs.streamlit.io/) for UI-related questions, and reference Plotly [graphing library docs](https://plotly.com/python/) for visualization questions.
 
 We're committed to making contributing to QubitLab as smooth and welcoming as possible. Your questions help us improve this guide and our onboarding process, so dont hesitate to ask.
 
