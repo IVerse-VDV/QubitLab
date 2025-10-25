@@ -853,49 +853,9 @@ SWAP exchanges the quantum information between qubits. This is useful for quantu
 
 ---
 
-## Contributing
-
-Contributions are welcome and encouraged! Whether you want to add features, improve visualizations, fix bugs, enhance documentation, or suggest ideas, your input is valued.
-
-### How to Contribute
-
-1. **Fork the repository** on GitHub
-2. **Create a feature branch**: `git checkout -b feature(according to the file name)/new-feature`
-3. **Make your changes** with clear, documented code
-4. **Test thoroughly** to ensure nothing breaks
-5. **Commit your changes**: `git commit -m 'Add new feature'`
-6. **Push to your fork**: `git push origin feature(according to the file name)/new-feature`
-7. **Open a Pull Request** with a clear description of changes
-
----
-
 ## License
 
 This project is open source and available under the **MIT License**.
-
-```
-MIT License
-
-Copyright (c) 2025 UniVoid
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
 
 You are free to:
 - Use this software commercially
@@ -906,32 +866,6 @@ You are free to:
 
 Under the condition that you include the original copyright and license notice in any copies or substantial portions of the software.
 
----
-
-## Acknowledgments
-
-This project stands on the shoulders of giants and would not be possible without the contributions of the broader quantum computing and open source communities.
-
-### Special Thanks To
-
-**IBM Quantum and the Qiskit Team**
-For developing and maintaining Qiskit, the comprehensive quantum computing framework that powers this application. Their commitment to open-source quantum computing has democratized access to quantum technology and made projects like this possible. The extensive documentation, active community, and regular updates make Qiskit the gold standard for quantum computing education and research.
-
-**The Streamlit Team**
-For creating a framework that makes building interactive Python applications remarkably straightforward. Streamlit intuitive API and reactive programming model allowed us to focus on quantum computing concepts rather than web development complexity.
-
-**Plotly Developers**
-For providing powerful, GPU accelerated visualization tools that bring quantum states to life. The interactive 3D graphics capabilities of Plotly transform abstract quantum mechanics into tangible, explorable objects.
-
-**The Quantum Computing Community**
-To educators, researchers, and enthusiasts worldwide who freely share knowledge, tutorials, and insights. The collaborative spirit of the quantum computing cmmunity accelerates learning and innovation for everyone.
-
-**Open Source Contributors**
-To all developers who contribute to NumPy, Matplotlib, and the broader Python scientific computing ecosystem. These foundational tools enable countless projects across science, engineering, and education.
-
-### Inspiration
-
-This project was inspired by the need for intuitive quantum computing education tools. Too often, students encounter quantum mechanics through abstract mathematics before developing geometric intuition. By providing immediate visual feedback and interactive exploration, we hope to make quantum computing accessible to a broader audience and inspire the next generation of quantum researchers and engineers.
 
 ---
 
@@ -971,13 +905,6 @@ URL: https://github.com/IVerse-VDV/QubitLab
 
 ---
 
-## Final Thoughts
-
-Quantum computing represents one of the most exciting frontiers in modern science and technology. While the mathematics can be daunting, the underlying concepts superposition, entanglement, interference have beautiful geometric interpretations. This application aims to make those interpretations visible and interactive, transforming abstract quantum mechanics into concrete, explorable experiences.
-
-Whether youre a student taking your first quantum computing course, an educator looking for teaching tools, or a curious mind exploring the quantum realm, we hope this application enhances your journey. Quantum mechanics is strange and wonderful, and seeing quantum states evolve through interactive visualizations can spark insights that equations alone cannot provide.
-
-Remember: every quantum algorithm, no matter how complex, is built from sequences of simple gates like the ones you can explore here. By mastering these fundamentals through hands on experimentation, youre building the intuition needed to understand and create [Quantum Algorithms](https://en.wikipedia.org/wiki/Quantum_algorithm)  that may one day solve problems beyond the reach of classical computers.
 
 Happy quantum computing!
 
@@ -987,5 +914,6 @@ Happy quantum computing!
 
 
 *Making quantum computing visual, interactive, and accessible to everyone.*
+
 
 
